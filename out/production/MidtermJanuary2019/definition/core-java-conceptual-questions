@@ -8,41 +8,114 @@ programming language usually refers to high-level languages such as C, C++, COBO
 
 
 What jdk contains or composed of and define each components?
-A.
-
-
-
-
+A.The Java Development Kit (JDK) is a software development environment used for developing Java applications and
+applets. It includes the Java Runtime Environment (JRE), an interpreter/loader (java), a compiler (javac), an archiver
+(jar), a documentation generator (javadoc) and other tools needed in Java development.
+Following is a list of the main components of the JDK:
+1.The Runtime Interpreter.
+2.The Compiler.
+3.The Applet Viewer.
+4.The Debugger.
+5.The Class File Disassembler.
+6.The Header and Stub File Generator.
+7.The Documentation Generator.
+8.Applet Demos.
 
 What is IDE?
-A.
+A.IDE (for Integrated Development Environment) is a software application which enables users to more easily
+write and debug Java programs.
+
 What are the IDEs available in the market to support java?
+Ans.
+1.NetBeans. NetBeans is an open source Integrated Development Environment written in Java. ...
+2.Eclipse. Eclipse is another free Java IDE for developers and programmers. ...
+3.IntelliJ IDEA Community Edition. ...
+4.Android Studio. ...
+5.Enide Studio 2014. ...
+6.BlueJ. ...
+7.jEdit. ...
+8.jGRASP.
+
 Explain the entire java life cycle.
+A.Life cycle of a java program tells us what happens right from the point when we type source code in a text editor
+to the point that source code is converted into machine code (0's and 1's). There are three main stages in the
+life cycle of a java program.Java source code is compiled into bytecode when we use the javac compiler. The bytecode
+gets saved on the disk with the file extension .class . When the program is to be run, the bytecode is converted,
+using the just-in-time (JIT) compiler. The result is machine code which is then fed to the memory and is executed.
+
 what is class?
+
+A. A class can be defined as a blueprint that describes the behavior/state that the object of its type support.
+
 What is object?
+A. An object is a member or an "instance" of a class. An object has a state in which all of its properties have
+values that you either explicitly define or that are defined by default settings.
+
 What is the entry point of an application?
+A.An application entry point identifies a resource that is an access point to an application. Application entry
+points are used to control users' access to different versions of an application that is deployed on a platform.
+
 Why main is static?
+A.Java program's main method has to be declared static because keyword static allows main to be called without
+creating an object of the class in which the main method is defined. If we omit static keyword before main Java
+program will successfully compile but it won't execute.
+
 Which class is the superclass of all classes?
+A.java.lang.Object is a super class of any class by default. The root class of the Java class hierarchy.
+ All non-primitive types (including arrays) inherit either directly or indirectly from this class. Object is
+ the super class of all other classes you use, including the ones you implemented.
+
 What is difference between path and classpath variables?
+A.Once you installed Java on your machine, it is required to Set the PATH environment variable to conveniently run
+the executable (javac.exe, java.exe, javadoc.exe, and so on) from any directory without having to type the full path
+of the command, such as:C:\javac TestClass.java.
+Otherhand; Classpath is system environment variable used by the Java compiler and JVM.
+Java compiler and JVM is used Classpath to determine the location of required class files.
+C:\Program Files\Java\jdk1.6.0\bin.
+path variable is used to set the path for all Java software tools like javac.exe, java.exe, javadoc.exe, and so on.
+Otherhand;classpath variable is used to set the path for java classes.
+
 What is the difference between an Interface and Abstract class?
+A.1.Main difference is methods of a Java interface are implicitly abstract and cannot have implementations. A Java
+abstract class can have instance methods that implements a default behavior. 2.Variables declared in a Java interface
+is by default final. An abstract class may contain non-final variables.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A.Not.
 what is Access Specifier?
+
 What is OOP ? Define each feature of java OOP.
+
 What is Java Package and which package is imported by default?
+
 What is API? Name list of API that you have used so far.
+
 Does java support multiple inheritance, explain why or why not?
+
 What is method overloading and when it happens?
+
 Explain exceptions in java and how to handle it.
+
 What is static keyword in java? How it has been used in variables and methods ?
+
 What is final and how it has been used variables and methods?
+
 What is final, finally and finalize?
+
 What is a constructor ?
+
 Can we have multiple constructors in a class?
+
+
 If we don't have a constructor declared, what is called during the object creation?
+
 What is "this" keyword in java ?
+
 What is "super" keyword in java? How many possible way can you use?
+
 What is JVM stand for ?
 Is JVM platform independent?
+
 What version of java are you using?
 What is JAR stand for ?
 What is the difference between JDK and JVM?

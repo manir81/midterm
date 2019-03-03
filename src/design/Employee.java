@@ -22,5 +22,11 @@ public interface Employee {
 	
 	//employee benefit
 	public void benefitLayout();
+	//calculate emploee bonus
 
+	public int calculateBonus();
+
+	public String employeeFirst_name();
+
+	public String employeeLast_Name();
 }
