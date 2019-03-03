@@ -3,6 +3,7 @@ package codelab.status;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class CsvReader {
@@ -63,6 +64,16 @@ public class CsvReader {
             }
         }
 
+
+        System.out.println(roster.size());
+        int sum = 0;
+        for ( Trainee tr : roster){
+            sum=sum +tr.getNumberOfExercisesSolved();
+        }
+        System.out.println(sum);
+        System.out.println(sum/roster.size());
     }
 
 }
+
+
